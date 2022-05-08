@@ -15,10 +15,8 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "starta": "react-app-rewired start",
-    "builda": "react-app-rewired build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

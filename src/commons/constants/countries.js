@@ -30,9 +30,19 @@ const COUNTRIES = [
     flag: BrazilFlag
   },
   {
+    label: 'Canada',
+    value: 'canada',
+    flag: CanadaFlag
+  },
+  {
     label: 'China',
     value: 'china',
     flag: ChinaFlag
+  },
+  {
+    label: 'Espanha',
+    value: 'spain',
+    flag: SpainFlag
   },
   {
     label: 'Estados Unidos',
@@ -45,29 +55,19 @@ const COUNTRIES = [
     flag: FranceFlag
   },
   {
-    label: 'Canada',
-    value: 'canada',
-    flag: CanadaFlag
-  },
-  {
     label: 'Japan',
     value: 'japan',
     flag: JapanFlag
   },
   {
-    label: 'Espanha',
-    value: 'spain',
-    flag: SpainFlag
+    label: 'Itália',
+    value: 'italy',
+    flag: ItalyFlag
   },
   {
     label: 'Singapore',
     value: 'singapore',
     flag: SingaporeFlag
-  },
-  {
-    label: 'Itália',
-    value: 'italy',
-    flag: ItalyFlag
   }
 ]
 
