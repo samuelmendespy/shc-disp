@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import CovidImg from '../../assets/images/covid.jpg'
+import WorldImg from '../../assets/images/world.jpg'
 
 const globalStyle = createGlobalStyle`
   * {
@@ -20,7 +20,7 @@ const globalStyle = createGlobalStyle`
   }
 
   #root {
-    background: url(${CovidImg});
+    background: url(${WorldImg});
     height: 100%;
     width: 100%;
     background-size: cover;

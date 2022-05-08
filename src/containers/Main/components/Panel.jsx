@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { memo } from 'react'
-import RefreshIcon from '../../../assets/images/refresh.svg'
 import { Card, Typography, Button, Select, MenuItem } from '../../../components'
 import COUNTRIES from '../../../commons/constants/countries'
 import { CardPanelContentStyled, ItemStyled } from './style'
