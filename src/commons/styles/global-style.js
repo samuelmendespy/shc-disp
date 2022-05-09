@@ -68,6 +68,10 @@ const globalStyle = createGlobalStyle`
   }
 
  
+  // Fundo da Lista de regiões selecionada
+  .MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover{
+    background-color: #365299;
+  }
 
   .mb-2 {
     margin-bottom: 16px;
