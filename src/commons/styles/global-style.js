@@ -28,10 +28,46 @@ const globalStyle = createGlobalStyle`
     background-position: center center;
   }
 
-  #ascard1, #ascard2, #ascard3, #ascard4, #ascard5{
+  
+
+  .MuiPaper-root{
     background-color:#2c050573;
     color:#ffe300;
   }
+
+
+  // Cor do Botão para copiar
+  .MuiButton-containedPrimary{
+    color:#00008B;
+    font-weight:bold;
+    background-color:#e6e6e6;
+  }
+
+  // Estilo com hover do Botão para copiar
+  .MuiButton-containedPrimary:hover{
+    background-color:#00008B;
+    color:#e6e6e6;
+    border: 3px white solid;
+  }
+
+// Card de título
+  #instabg{
+    background-color:#00008B;
+  }
+
+  .MuiInputBase-input{
+    color: #e6e6e6;
+  }
+
+  .MuiTypography-colorPrimary{
+    color: #d6cf44;
+  }
+
+  .MuiInputBase-root{
+    color: #0d97ff;
+  }
+
+ 
 
   .mb-2 {
     margin-bottom: 16px;

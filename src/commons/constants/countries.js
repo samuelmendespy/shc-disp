@@ -1,14 +1,14 @@
 import BrazilFlag from '../../assets/images/brazil.png'
-import ChinaFlag from '../../assets/images/china.png'
-import GermanyFlag from '../../assets/images/germany.png'
-import ItalyFlag from '../../assets/images/italy.png'
-import UsaFlag from '../../assets/images/usa.png'
 import CanadaFlag from '../../assets/images/canada.png'
+import ChinaFlag from '../../assets/images/china.png'
 import FranceFlag from '../../assets/images/france.png'
+import GermanyFlag from '../../assets/images/germany.png'
+import GlobalFlag from '../../assets/images/global.png'
+import ItalyFlag from '../../assets/images/italy.png'
+import JapanFlag from '../../assets/images/japan.png'
 import SingaporeFlag from '../../assets/images/singapore.png'
 import SpainFlag from '../../assets/images/spain.png'
-import JapanFlag from '../../assets/images/japan.png'
-import GlobalFlag from '../../assets/images/global.png'
+import UsaFlag from '../../assets/images/usa.png'
 
 
 

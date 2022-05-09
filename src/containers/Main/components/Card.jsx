@@ -8,9 +8,9 @@ import {
 } from './style'
 
 
-function Card({ value, label, color, vunit }) {
+function Card({ value, label, color, gocolor }) {
   return (
-    <CardUI id={vunit}>
+    <CardUI id={gocolor} >
       <CardContentStyled color={color}>
         <LabelStyled>{label}</LabelStyled>
         <ValueStyled>{value}</ValueStyled>
