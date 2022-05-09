@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import WorldImg from '../../assets/images/world.jpg'
 
+
 const globalStyle = createGlobalStyle`
   * {
     outline: none;
@@ -25,6 +26,11 @@ const globalStyle = createGlobalStyle`
     width: 100%;
     background-size: cover;
     background-position: center center;
+  }
+
+  #ascard1, #ascard2, #ascard3, #ascard4, #ascard5{
+    background-color:#2c050573;
+    color:#ffe300;
   }
 
   .mb-2 {

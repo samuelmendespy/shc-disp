@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { memo } from 'react'
+import RefreshIcon from '../../../assets/images/refresh.svg'
 import { Card, Typography, Button, Select, MenuItem } from '../../../components'
 import COUNTRIES from '../../../commons/constants/countries'
 import { CardPanelContentStyled, ItemStyled } from './style'
+import LogoImg from '../../../assets/images/logo.png'
 
 const navigatorHasShare = navigator.share
 
@@ -18,10 +20,11 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     </MenuItem>
   )
 
-  const textCovid19 = `País: ${country} - casos: ${cases} - recuperados: ${recovered} - fatalidades: ${deaths} -  fatalidades hoje: ${todayDeaths}  novos casos hoje : ${todayCases} `
+  const textCovid19 = `País: ${country} - casos: ${cases} - recuperados: ${recovered} - mortes : ${deaths} -  mortes hoje: ${todayDeaths}  novos casos hoje : ${todayCases} `
 
   const copyInfo = () => {
-    navigator.clipboard.writeText(textCovid19)
+  
+    navigator.clipboard.writeText(textCovid19);
   }
 
   const shareInfo = () => {
@@ -52,10 +55,11 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     <Card>
       <CardPanelContentStyled>
         <div>
-          <Typography variant="h5" component="span" color="primary">COVID19</Typography><br></br>
-          <Typography variant="h6" component="span" color="primary">Painel Coronavírus</Typography><br></br>
+          <Typography variant="h5" component="span" color="primary"> <img src={LogoImg} alt={`Logo SHC Disp }`} /></Typography><br></br>
+          <Typography variant="h6" component="span" color="primary">Painel de Casos de Covid-19</Typography><br></br>
           <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
           <div className="pt-2">
+            <p>Selecionar região</p>
             <Select onChange={onChange} value={country}>
               {COUNTRIES.map(renderCountries)}
             </Select>

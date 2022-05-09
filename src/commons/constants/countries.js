@@ -13,6 +13,7 @@ import GlobalFlag from '../../assets/images/global.png'
 
 
 
+
 const COUNTRIES = [
   {
     label: 'Global',
@@ -30,7 +31,7 @@ const COUNTRIES = [
     flag: BrazilFlag
   },
   {
-    label: 'Canada',
+    label: 'Canadá',
     value: 'canada',
     flag: CanadaFlag
   },
@@ -55,7 +56,7 @@ const COUNTRIES = [
     flag: FranceFlag
   },
   {
-    label: 'Japan',
+    label: 'Japão',
     value: 'japan',
     flag: JapanFlag
   },
@@ -65,7 +66,7 @@ const COUNTRIES = [
     flag: ItalyFlag
   },
   {
-    label: 'Singapore',
+    label: 'Singapura',
     value: 'singapore',
     flag: SingaporeFlag
   }
