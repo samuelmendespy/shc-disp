@@ -3,8 +3,8 @@
 PWA com painel de visualização de estatísticas sobre a Covid-19.
 
 ## Detalhes
-- [Publicação do repositório do projeto no github] (https://github.com/pysmendes/shc-disp)  
-- [Build de SHC Disp em Netlify] (https://shcdispcov19.netlify.app/)
+- [Publicação do repositório do projeto no github](https://github.com/pysmendes/shc-disp)  
+- [Build de SHC Disp em Netlify](https://shcdispcov19.netlify.app/)
 
 ## Dificuldades vencidas
 - Estilização com Material UI
@@ -17,7 +17,7 @@ PWA com painel de visualização de estatísticas sobre a Covid-19.
 - Material UI
 - JSX
 - Ilustração de favicon e logo @pysmendes
-- Imagem de fundo ( https://pixabay.com/pt/photos/mundo-mapa-imagem-de-sat%c3%a9lite-140304/ )
+- [Imagem de fundo](https://pixabay.com/pt/photos/mundo-mapa-imagem-de-sat%c3%a9lite-140304/ )
 
 
 ## Customizações
