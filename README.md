@@ -1,5 +1,5 @@
 # Projeto SHC-Disp. 
-![logo](src/assets/images/logo.png)
+![logo](src/assets/images/logo.svg)
 PWA com painel de visualização de estatísticas sobre a Covid-19.
 
 ## Detalhes
