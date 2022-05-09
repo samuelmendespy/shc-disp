@@ -38,9 +38,12 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
 
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
-      text: `País : ${gcountry2} - 
-      Casos: ${cases} - Recuperados: ${recovered} - Mortes : ${deaths} -  
-      Mortes hoje: ${todayDeaths}  - Novos casos hoje : ${todayCases} `,
+      text: `País : ${gcountry2}
+        - Casos: ${cases} - 
+        - Recuperados: ${recovered} - 
+        - Mortes : ${deaths} -  
+        - Mortes hoje: ${todayDeaths} - 
+        - Novos casos hoje : ${todayCases} `,
       url: 'https://shcdispcov19.netlify.app/'
     })
   }
